@@ -1,0 +1,21 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.コンテンツ
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+    01.コンテンツ
+--------------------*/
+.content__main {
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    clear: both;
+    height:100rem;
+    margin-bottom:3rem;
+    overflow: hidden;
+    padding: 30px;
+}

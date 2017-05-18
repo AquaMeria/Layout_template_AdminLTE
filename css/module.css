@@ -1,0 +1,81 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.Button
+|   02.balloon
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+    01.Button
+--------------------*/
+.btn-detail{
+    background: #333;
+    border-color:#ccc;
+    color:#fff;
+}
+.btn-detail:hover{
+    background: #fff;
+    border-color:#ccc;
+    color:#333;
+}
+
+/*--------------------
+    02.ballon
+--------------------*/
+.balloon-left {
+    background: #fff;
+	border: 3px solid #24936E;
+    color: #444;
+    display: inline-block;
+    line-height: 5rem;
+    margin:2rem 0;
+    min-height: 8rem;
+    min-width: 10rem;
+    padding: 1rem 2rem;
+	position: relative;
+	width: auto;
+	z-index: 0;
+}
+@media screen and (min-width:760px) and ( max-width:1024px) {
+    .balloon-left {
+        margin:5rem 0;
+    }
+}
+@media screen and (max-width:760px) {
+    .balloon-left {
+        line-height: 2.5rem;
+        margin:0;
+        padding: 1rem;
+    }
+}
+.balloon-left:before {
+    border-color: transparent #FFF transparent transparent;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    content: "";
+    display: block;
+    height: 0px;
+    left: -8px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    width: 0px;
+    z-index: 0;
+}
+.balloon-left:after {
+    border-color: transparent #24936E transparent transparent;
+    border-style: solid;
+	border-width: 10px 10px 10px 0;
+	content: "";
+    display: block;
+    height: 0px;
+    left: -12px;
+    margin-top: -10px;
+    position: absolute;
+	top: 50%;
+	width: 0px;
+	z-index: -1;
+}
