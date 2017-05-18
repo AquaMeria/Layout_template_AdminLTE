@@ -1,0 +1,2 @@
+# Layout_template_AdminLTE
+AdminLTEのテンプレートをベースにしたレイアウトファイル
